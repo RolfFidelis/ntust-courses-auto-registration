@@ -7,5 +7,5 @@
 // @match        https://stu255.ntust.edu.tw/ntust_stu/stu_judge.aspx
 // @grant        none
 // ==/UserScript==
-var a = document.querySelectorAll('a[href^="stu_judge_course.aspx"]');
+var a = document.querySelectorAll('a[href^="judge_course_c.aspx"]');
 console.log(a[0].click());

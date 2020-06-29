@@ -11,4 +11,4 @@ var input = document.querySelectorAll('input[id$="_2"]');
 for (var i = 0; i < input.length; i++) {
   input[i].checked = 'checked';
 }
-var btn = document.getElementById('Button1').click();
+var btn = document.getElementById('Btn_Save').click();

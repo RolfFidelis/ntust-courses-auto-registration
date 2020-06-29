@@ -1,0 +1,38 @@
+[1mdiff --git a/mobilizer/mobilizer.js b/mobilizer/mobilizer.js[m
+[1mdeleted file mode 100644[m
+[1mindex 4baa06c..0000000[m
+[1m--- a/mobilizer/mobilizer.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,32 +0,0 @@[m
+[31m-/*[m
+[31m- * This is a JavaScript Scratchpad.[m
+[31m- *[m
+[31m- * Enter some JavaScript, then Right Click or choose from the Execute Menu:[m
+[31m- * 1. Run to evaluate the selected text (Ctrl+R),[m
+[31m- * 2. Inspect to bring up an Object Inspector on the result (Ctrl+I), or,[m
+[31m- * 3. Display to insert the result in a comment after the selection. (Ctrl+L)[m
+[31m- */[m
+[31m-javascript: (function () {[m
+[31m-  if (!($ = window.jQuery)) { // typeof jQuery=='undefined' works too[m
+[31m-    var jq = document.createElement('script');[m
+[31m-    jq.src = 'https://code.jquery.com/jquery-3.3.1.min.js';[m
+[31m-    document.body.appendChild(jq);[m
+[31m-  } else {[m
+[31m-    test();[m
+[31m-  }[m
+[31m-  var bootstrap = document.createElement('script');[m
+[31m-  bootstrap.src = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js';[m
+[31m-  document.body.appendChild(bootstrap);[m
+[31m-  var sheet = document.createElement('script');[m
+[31m-  sheet.rel = 'stylesheet';[m
+[31m-  sheet.href = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'[m
+[31m-  document.head.appendChild(sheet);[m
+[31m-  var meta = document.createElement('meta');[m
+[31m-  meta.name = 'viewport';[m
+[31m-  meta.content = 'width=device-width, initial-scale=1';[m
+[31m-  document.head.appendChild(meta);[m
+[31m-  function test() {[m
+[31m-    console.log('test1');[m
+[31m-    $('#pfc_cmd_container').css('background-color', 'red');[m
+[31m-  }[m
+[31m-}) ();[m
